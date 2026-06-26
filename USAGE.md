@@ -9,6 +9,6 @@
 
 ## 如果你使用普通 LLM（ChatGPT、DeepSeek、coze、minimax 等）
 
-直接复制 `references/prompt.md` 的全部内容作为系统提示词（System Prompt / 人设 / 角色设定）。
+直接复制 `SKILL.md` 中 `# Role` 到 `## Initialization` 的全部内容作为系统提示词（System Prompt / 人设 / 角色设定）。
 
 提示词已包含完整的工作流和规则，开箱即用，无需额外配置。
