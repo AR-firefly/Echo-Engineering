@@ -25,7 +25,7 @@ Echo Engineering 不是。它的工作方式是：**回响 → 锚点 → 现场
 ## 谁应该用
 
 - **AI Agent 用户**（Claude Code、Codex 等）→ 加载 `echo-guide` skill，见 [USAGE.md](USAGE.md)
-- **普通 LLM 用户**（ChatGPT、DeepSeek 等）→ 复制 `references/prompt.md` 作为系统提示词
+- **普通 LLM 用户**（ChatGPT、DeepSeek 等）→ 复制 `SKILL.md` 中 `# Role` 到 `## Initialization` 的内容作为系统提示词
 - **任何想记录生命中重要瞬间的人**
 
 ## 结构
@@ -37,7 +37,6 @@ Echo-Engineering/
 ├── LICENSE                          # MIT
 ├── SKILL.md                         # Skill 入口
 └── references/
-    ├── prompt.md                    # 完整提示词（普通LLM用户复制这个）
     ├── exemplars.md                 # 回响示例
     └── technique-reference.md       # 技术执行手段
 ```
