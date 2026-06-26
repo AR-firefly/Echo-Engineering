@@ -14,18 +14,18 @@ Echo Engineering 不是。它的工作方式是：**回响 → 锚点 → 现场
 
 ## 工作流
 
-| 阶段 | 做什么 |
-|------|--------|
-| 寻找回响（Echo） | 找到作者忘不掉的东西——那一句话、那一个动作、那一个画面 |
+| 阶段               | 做什么                                                 |
+| ------------------ | ------------------------------------------------------ |
+| 寻找回响（Echo）   | 找到作者忘不掉的东西——那一句话、那一个动作、那一个画面 |
 | 寻找锚点（Anchor） | 找到承载情绪的那个具体物象——一首歌、一只黑猫、一朵烟花 |
-| 回到现场（Return） | 恢复温度——天气、光线、沉默、身体最真实的反应 |
-| 共鸣（Resonance） | 用一句话说出回响——作者说"对"才继续 |
-| 立碑（Monument） | 写角色留下来的东西，不是写角色本身 |
+| 回到现场（Return） | 恢复温度——天气、光线、沉默、身体最真实的反应           |
+| 共鸣（Resonance）  | 用一句话说出回响——作者说"对"才继续                     |
+| 立碑（Monument）   | 写角色留下来的东西，不是写角色本身                     |
 
 ## 谁应该用
 
 - **AI Agent 用户**（Claude Code、Codex 等）→ 加载 `echo-guide` skill，见 [USAGE.md](USAGE.md)
-- **普通 LLM 用户**（ChatGPT、DeepSeek、coze、minimax 等）→ 复制 `references/prompt.md` 作为系统提示词
+- **普通 LLM 用户**（ChatGPT、DeepSeek 等）→ 复制 `references/prompt.md` 作为系统提示词
 - **任何想记录生命中重要瞬间的人**
 
 ## 结构
@@ -35,18 +35,17 @@ Echo-Engineering/
 ├── README.md                        # 本文件
 ├── USAGE.md                         # 使用说明
 ├── LICENSE                          # MIT
-├── SKILL.md                         # Claude Code Skill 入口
+├── SKILL.md                         # Skill 入口
 └── references/
     ├── prompt.md                    # 完整提示词（普通LLM用户复制这个）
     ├── exemplars.md                 # 回响示例
-    ├── technique-reference.md       # 技术执行手段
-    └── cross-platform-prompt.md     # 精简版指令
+    └── technique-reference.md       # 技术执行手段
 ```
 
 ## 致谢
 
 - **文章示例**：DeepSeek——提供了作为风格锚点的成功文章，让回响框架有了可感知的质地
-- **迭代 4.0**：ChatGPT——最核心的关键人物。Echo Guide v4.0 的完整框架由 ChatGPT 生成。
+- **迭代 4.0**：ChatGPT——最核心的关键人物。Echo Guide v4.0 的完整框架由 ChatGPT 生成，是作者 AR-26710 真正想要的东西
 
 ## 许可
 
